@@ -1,0 +1,232 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/site.css">
+</head>
+
+<body>
+    <main>
+        <aside class="sidebar">
+            <ul>
+                <li>
+                    <a href="#layout">
+                        Layout
+                    </a>
+                </li>
+                <li>
+                    <a href="#buttons">
+                        Buttons
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <div class="content">
+            <div class="container">
+                <section id="layout">
+                    <h2>Basic layout</h2>
+                    <article>
+                        <h3>Two cells in a row:</h3>
+                        <div class="row">
+                            <div class="cell cell-2">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                            <div class="cell cell-2">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4>Code example:</h4>
+                        <pre class="code-highlight">&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;cell cell-2&quot;&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&quot;cell cell-2&quot;&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                    </article>
+                    <article>
+                        <h3>Three cells in a row</h3>
+                        <div class="row">
+                            <div class="cell cell-3">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                            <div class="cell cell-3">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                            <div class="cell cell-3">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4>Code example:</h4>
+                        <pre class="code-highlight">&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;cell cell-3&quot;&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&quot;cell cell-3&quot;&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&quot;cell cell-3&quot;&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                    </article>
+                    <article>
+                        <h3>Four cells in a row</h3>
+                        <div class="row">
+                            <div class="cell cell-4">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                            <div class="cell cell-4">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                            <div class="cell cell-4">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                            <div class="cell cell-4">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4>Code example:</h4>
+                        <pre class="code-highlight">&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;cell cell-4&quot;&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&quot;cell cell-4&quot;&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&quot;cell cell-4&quot;&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&quot;cell cell-4&quot;&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                    </article>
+
+                    <article>
+                        <h3>Five/six cells in a row</h3>
+
+
+                        <p>
+                            Use classes <code>.cell-5</code> or <code>.cell-6</code>.
+                        </p>
+                    </article>
+                    <article>
+                        <h3>Multiline row:</h3>
+                        <div class="row multiline">
+                            <div class="cell cell-3">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                            <div class="cell cell-3">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                            <div class="cell cell-3">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                            <div class="cell cell-3">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                            <div class="cell cell-3">
+                                <div class="fillter-content">
+                                    cell
+                                </div>
+                            </div>
+                        </div>
+
+                        <h4>Code example:</h4>
+                        <pre class="code-highlight">&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;cell cell-2&quot;&gt;
+
+    &lt;/div&gt;
+    &lt;div class=&quot;cell cell-2&quot;&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;</pre>
+                    </article>
+                </section>
+                <section id="buttons">
+                    <h2>Buttons</h2>
+                    <article>
+                        <h3>Regular buttons</h3>
+                        <div class="btn-panel">
+                            <button class="btn btn-primary">Primary</button>
+                            <button class="btn btn-secondary">Secondary</button>
+                            <button class="btn btn-success">Success</button>
+                            <button class="btn btn-warning">Warning</button>
+                            <button class="btn btn-danger">Danger</button>
+                        </div>
+                    </article>
+                    <article>
+                        <h3>Disabled buttons</h3>
+                        <div class="btn-panel">
+                            <button disabled class="btn btn-primary">Primary</button>
+                            <button disabled class="btn btn-secondary">Secondary</button>
+                            <button disabled class="btn btn-success">Success</button>
+                            <button disabled class="btn btn-warning">Warning</button>
+                            <button disabled class="btn btn-danger">Danger</button>
+                        </div>
+                    </article>
+                    <article>
+                        <h3>Outlined buttons</h3>
+                        <div class="btn-panel">
+                            <button class="btn outline btn-primary">Primary</button>
+                            <button class="btn outline btn-secondary">Secondary</button>
+                            <button class="btn outline btn-success">Success</button>
+                            <button class="btn outline btn-warning">Warning</button>
+                            <button class="btn outline btn-danger">Danger</button>
+                        </div>
+                    </article>
+                    <article>
+                        <h3>Sizing</h3>
+                        <div class="btn-panel secondary-axis-center">
+                            <button class="btn outline btn-primary xs">Very small</button>
+                            <button class="btn outline btn-primary sm">Small</button>
+                            <button class="btn outline btn-primary">Normal</button>
+                            <button class="btn outline btn-primary lg">Large</button>
+                            <button class="btn outline btn-primary gi">Giant</button>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

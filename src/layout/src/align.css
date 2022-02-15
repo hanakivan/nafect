@@ -1,0 +1,23 @@
+.main-axis-center {
+    justify-content: center;
+}
+
+.main-axis-start {
+    justify-content: flex-start;
+}
+
+.main-axis-end {
+    justify-content: flex-end;
+}
+
+.secondary-axis-center {
+    align-items: center;
+}
+
+.secondary-axis-start {
+    align-items: flex-start;
+}
+
+.secondary-axis-end {
+    align-items: flex-end;
+}

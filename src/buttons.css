@@ -1,0 +1,126 @@
+.btn-panel {
+    display: flex;
+}
+
+.btn-panel > .btn + .btn {
+    margin-left: .2em;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    padding: .9em 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,.34);
+    transition: filter 199ms ease-out;
+}
+
+.btn:hover {
+    filter: brightness(110%);
+}
+
+.btn-primary {
+    color: white;
+    background-color: var(--color-primary);
+}
+
+.btn-secondary {
+    color: white;
+    background-color: var(--color-secondary);
+}
+
+.btn-success {
+    color: white;
+    background-color: var(--color-success);
+}
+
+.btn-warning {
+    color: #7e2020;
+    text-shadow: none;
+    background-color: var(--color-warning);
+}
+
+.btn-danger {
+    color: white;
+    background-color: var(--color-danger);
+}
+
+.btn[disabled],
+.btn[aria-disabled="true"],
+.btn.disabled {
+    pointer-events: none;
+    filter: grayscale(.5) opacity(0.5);
+    cursor: default;
+}
+
+.btn.outline {
+    background-color: white;
+    border: 1px solid currentColor;
+    text-shadow: none;
+}
+
+.btn.outline.btn-primary {
+    color: var(--color-primary);
+}
+
+.btn.outline.btn-primary:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.btn.outline.btn-secondary {
+    color: var(--color-secondary);
+}
+
+.btn.outline.btn-secondary:hover {
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+.btn.outline.btn-success {
+    color: var(--color-success);
+}
+
+.btn.outline.btn-success:hover {
+    background-color: var(--color-success);
+    color: white;
+}
+
+.btn.outline.btn-warning {
+    color: #7e2020;
+}
+
+.btn.outline.btn-warning:hover {
+    border-color:  var(--color-warning);
+    background-color: var(--color-warning);
+    color: #7e2020;
+}
+
+.btn.outline.btn-danger {
+    color: var(--color-danger);
+}
+
+.btn.outline.btn-danger:hover {
+    background-color: var(--color-danger);
+    color: white;
+}
+
+.btn.sm {
+    font-size: .85rem;
+}
+
+.btn.xs {
+    font-size: .7rem;
+}
+
+.btn.lg {
+    font-size: 1.15rem;
+}
+
+.btn.gi {
+    font-size: 1.3rem;
+}

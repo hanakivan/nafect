@@ -1,0 +1,15 @@
+:root {
+    --color-blue: #2196f3;
+    --color-green: #4caf50;
+    --color-red: #f44336;
+    --color-orange: #ffc107;
+    --color-gray: #9e9e9e;
+}
+
+:root {
+    --color-success: var(--color-green);
+    --color-primary: var(--color-blue);
+    --color-secondary: var(--color-gray);
+    --color-danger: var(--color-red);
+    --color-warning: var(--color-orange)
+}
