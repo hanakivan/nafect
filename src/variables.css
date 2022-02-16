@@ -4,12 +4,14 @@
     --color-red: #f44336;
     --color-orange: #ffc107;
     --color-gray: #9e9e9e;
+    --color-bluish-greenish: #00bcd4;
 
     /* 2012 rocks */
     --apple-color: #0088cc;
 }
 
 :root {
+    --color-info: var(--color-bluish-greenish);
     --color-success: var(--color-green);
     --color-primary: var(--color-blue);
     --color-secondary: var(--color-gray);

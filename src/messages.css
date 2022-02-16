@@ -1,0 +1,43 @@
+.message {
+    border-radius: 5px;
+    padding: 12px 15px;
+    line-height: 1.5;
+    text-shadow: 0 1px 0 rgba(0,0,0,.34);
+}
+
+.message + .message {
+    margin-top: 20px;
+}
+
+.message-primary {
+    color: white;
+    background-color: var(--color-blue);
+}
+
+.message-secondary {
+    color: white;
+    background-color: var(--color-secondary);
+}
+
+
+.message-info {
+    color: white;
+    background-color: var(--color-info);
+}
+
+
+.message-success {
+    color: white;
+    background-color: var(--color-success);
+}
+
+.message-warning {
+    text-shadow: none;
+    color: #7e2020;
+    background-color: var(--color-warning);
+}
+
+.message-danger {
+    color: white;
+    background-color: var(--color-danger);
+}

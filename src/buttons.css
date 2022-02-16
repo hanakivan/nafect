@@ -37,9 +37,14 @@
     background-color: var(--color-success);
 }
 
+.btn-info {
+    color: white;
+    background-color: var(--color-info);
+}
+
 .btn-warning {
-    color: #7e2020;
     text-shadow: none;
+    color: #7e2020;
     background-color: var(--color-warning);
 }
 
@@ -60,6 +65,9 @@
     background-color: white;
     border: 1px solid currentColor;
     text-shadow: none;
+    filter: none;
+    transition-property: background-color;
+    transition-duration: 290ms;
 }
 
 .btn.outline.btn-primary {
@@ -89,6 +97,15 @@
     color: white;
 }
 
+.btn.outline.btn-info {
+    color: var(--color-info);
+}
+
+.btn.outline.btn-info:hover {
+    background-color: var(--color-info);
+    color: white;
+}
+
 .btn.outline.btn-warning {
     color: #7e2020;
 }
@@ -108,20 +125,25 @@
     color: white;
 }
 
-.btn.sm {
-    font-size: .85rem;
-    padding: 0.5em 0.8em
-}
-
 .btn.xs {
     font-size: .7rem;
-    padding: 0.38em 0.66em
+    padding: 0.38em 0.66em;
+    border-radius: 3px;
 }
+
+.btn.sm {
+    font-size: .85rem;
+    padding: 0.5em 0.8em;
+    border-radius: 4px;
+}
+
 
 .btn.lg {
     font-size: 1.15rem;
+    border-radius: 6px;
 }
 
 .btn.gi {
     font-size: 1.3rem;
+    border-radius: 7px;
 }
