@@ -33,6 +33,14 @@ p {
     padding: 50px 30px 10px;
 }
 
+.sidebar ul ul {
+    margin-left: 20px;
+}
+
+.sidebar ul a:hover {
+    text-decoration: underline;
+}
+
 .content {
     padding: 50px;
     padding-top: 0;
@@ -75,7 +83,11 @@ section h4 {
 }
 
 section article + article {
-    margin-top: 70px;
+    padding-top:50px;
+}
+
+section article > *:first-child {
+    padding-top: 0;
 }
 
 .code-highlight {
