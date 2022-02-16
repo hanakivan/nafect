@@ -1,4 +1,4 @@
-## Not Another Front-End CSS Framework (nafect)
+## Not Another Front-End CSS Framework
 
 Does not have any advantage over the popular framework. You are encouraged to use the popular ones.
 
@@ -8,8 +8,11 @@ Does not have any advantage over the popular framework. You are encouraged to us
 - buttons
 - tables
 
-## Licensing
-👉 [See license](LICENSE.md)
+### Demo
+👉 [See demo »](https://hanakivan.github.io/nafect/)
+
+### Licensing
+👉 [See license »](LICENSE.md)
 
 ## Inspirations
 - [Bootstrap v3.3](https://getbootstrap.com/docs/3.3/css/#forms)
