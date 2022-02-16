@@ -5,17 +5,17 @@
 .column {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: var(--row-gap)
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    column-gap: 20px;
+    column-gap: var(--column-gap);
 }
 
 .multiline {
     flex-wrap: wrap;
-    row-gap: 20px;
-    column-gap: 20px;
+    row-gap: var(--row-gap);
+    column-gap: var(--column-gap);
 }

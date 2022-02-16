@@ -1,0 +1,6 @@
+:root {
+    --gap: 20px;
+
+    --column-gap: var(--gap);
+    --row-gap: var(--gap);
+}

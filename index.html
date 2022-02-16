@@ -7,6 +7,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="site.css">
 </head>
@@ -33,8 +36,10 @@
             </ul>
             <footer style="margin-top: auto">
                 <p>
-                    &copy; Ajven s.r.o. &middot; 2022<br />
-                    <a href="ochrana-osobnych-udajov.html">Ochrana osobných údajov</a>
+                    <small>
+                        &copy; Ajven s.r.o. &middot; 2022<br />
+                        <a href="ochrana-osobnych-udajov.html">Ochrana osobných údajov</a>
+                    </small>
                 </p>
             </footer>
         </aside>
@@ -44,6 +49,9 @@
                     <h2>Basic layout</h2>
                     <article>
                         <h3>Two cells in a row:</h3>
+                        <p>
+                            Use class <code>.cell.cell-2</code> on the cell item.
+                        </p>
                         <div class="row">
                             <div class="cell cell-2">
                                 <div class="fillter-content">
@@ -69,6 +77,9 @@
                     </article>
                     <article>
                         <h3>Three cells in a row</h3>
+                        <p>
+                            Use class <code>.cell.cell-3</code> on the cell item.
+                        </p>
                         <div class="row">
                             <div class="cell cell-3">
                                 <div class="fillter-content">
@@ -102,6 +113,9 @@
                     </article>
                     <article>
                         <h3>Four cells in a row</h3>
+                        <p>
+                            Use class <code>.cell.cell-4</code> on the cell item.
+                        </p>
                         <div class="row">
                             <div class="cell cell-4">
                                 <div class="fillter-content">
@@ -152,6 +166,9 @@
                     </article>
                     <article>
                         <h3>Multiline row:</h3>
+                        <p>
+                            Use class <code>.row.multiline</code>.
+                        </p>
                         <div class="row multiline">
                             <div class="cell cell-3">
                                 <div class="fillter-content">
@@ -193,6 +210,9 @@
                 </section>
                 <section id="buttons">
                     <h2>Buttons</h2>
+                    <p>
+                        Use the base class <code>.btn</code>.
+                    </p>
                     <article>
                         <h3>Regular buttons</h3>
                         <div class="btn-panel">
@@ -202,9 +222,23 @@
                             <button class="btn btn-warning">Warning</button>
                             <button class="btn btn-danger">Danger</button>
                         </div>
+                        <footer>
+                            <h4>
+                                Use the following code:
+                            </h4>
+                            <pre class="code-highlight">
+&#x3C;button class=&#x22;btn btn-primary&#x22;&#x3E;Primary&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;btn btn-secondary&#x22;&#x3E;Secondary&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;btn btn-success&#x22;&#x3E;Success&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;btn btn-warning&#x22;&#x3E;Warning&#x3C;/button&#x3E;
+&#x3C;button class=&#x22;btn btn-danger&#x22;&#x3E;Danger&#x3C;/button&#x3E;</pre>
+                        </footer>
                     </article>
                     <article>
                         <h3>Disabled buttons</h3>
+                        <p>
+                            Add <code>[disabled]</code> property, <code>.disabled</code> classname or <code>[aria-disabled="true]</code> attribute.
+                        </p>
                         <div class="btn-panel">
                             <button disabled class="btn btn-primary">Primary</button>
                             <button disabled class="btn btn-secondary">Secondary</button>
@@ -215,6 +249,9 @@
                     </article>
                     <article>
                         <h3>Outlined buttons</h3>
+                        <p>
+                            Just add <code>.outline</code> classname.
+                        </p>
                         <div class="btn-panel">
                             <button class="btn outline btn-primary">Primary</button>
                             <button class="btn outline btn-secondary">Secondary</button>
@@ -225,6 +262,9 @@
                     </article>
                     <article>
                         <h3>Sizing</h3>
+                        <p>
+                            Use <code>.xs</code>, <code>.sm</code>, <code>.lg</code> or <code>.gi</code>
+                        </p>
                         <div class="btn-panel secondary-axis-center">
                             <button class="btn outline btn-primary xs">Very small</button>
                             <button class="btn outline btn-primary sm">Small</button>
