@@ -1,0 +1,77 @@
+.form {
+
+}
+
+.form.styled {
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.form .fields {
+
+}
+
+.form .field {
+
+}
+
+.form .field + .field {
+    margin-top:25px;
+}
+
+.form .field-label {
+    font-weight: 600;
+    display: block;
+    margin-bottom: .3em;
+}
+
+.form .field-label.required::after {
+    color: var(--color-danger);
+    content: "*";
+    margin-left: 2px;
+}
+
+.form .field-control {
+    display: block;
+    border-radius: 3px;
+    height: 40px;
+    padding: 0 12px;
+    border: 1px solid #ddd;
+    width: 100%;
+    font-size: 1rem;
+    transition: box-shadow 199ms ease-out;
+}
+
+.form .field-control:focus {
+    outline: none;
+    border-color: rgba(1, 94, 204, 0.33);
+    box-shadow: 0 0 0 0.25rem rgba(1, 94, 204, 0.16);
+}
+
+.form textarea.field-control {
+    min-height: 100px;
+    padding: 12px;
+    resize: vertical;
+    overflow-y: auto;
+}
+
+.form select.field-control {
+    height: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.form .form-submit {
+    margin-top: 30px;
+}
+
+.form.horizontal .field {
+    display: flex;
+    align-items: flex-start;
+}
+
+.form.horizontal .field-label {
+    width: 150px;
+    margin-top: 8px;
+}

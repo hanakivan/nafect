@@ -104,6 +104,45 @@
                         Tables
                     </a>
                 </li>
+                <li>
+                    <a href="#forms">
+                        Forms
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#forms-styled">
+                                Styled
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#forms-horizontal">
+                                Horizontal
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#forms-fields-text">
+                                Fields
+                            </a>
+                            <ul>
+                                <li>
+                                    <a href="#forms-fields-text">
+                                        Text
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#forms-fields-select">
+                                        Select
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#forms-fields-checkbox">
+                                        Checkbox
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
             </ul>
             <footer style="margin-top: auto">
                 <p>
@@ -620,6 +659,146 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </article>
+                </section>
+                <section id="forms">
+                    <h2>Forms</h2>
+                    <article>
+                        <h3>Basic form</h3>
+                        <p>
+                            Use class <code>.form</code>.
+                        </p>
+                        <form action="#" method="post" class="form">
+                            <fieldset class="fields">
+                                <div class="field">
+                                    <label class="field-label required">Name:</label>
+                                    <input type="text" name="name" placeholder="Name..." aria-label="Name..." required minlength="1" maxlength="100" class="field-control" />
+                                </div>
+                                <div class="field">
+                                    <label class="field-label required">Password:</label>
+                                    <input type="password" name="password" placeholder="Password..." aria-label="Password..." required minlength="6" maxlength="100" class="field-control" />
+                                </div>
+                            </fieldset>
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </article>
+                    <article id="forms-styled">
+                        <h3>Styled form</h3>
+                        <p>
+                            Use class <code>.form.styled</code>.
+                        </p>
+                        <form action="#" method="post" class="form styled">
+                            <fieldset class="fields">
+                                <div class="field">
+                                    <label class="field-label required">Name:</label>
+                                    <input type="text" name="name" placeholder="Name..." aria-label="Name..." required minlength="1" maxlength="100" class="field-control" />
+                                </div>
+                                <div class="field">
+                                    <label class="field-label required">Password:</label>
+                                    <input type="password" name="password" placeholder="Password..." aria-label="Password..." required minlength="6" maxlength="100" class="field-control" />
+                                </div>
+                            </fieldset>
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </article>
+                    <article id="forms-horizontal">
+                        <h3>Horizontal form</h3>
+                        <p>
+                            Use class <code>.form.horizontal</code>.
+                        </p>
+                        <form action="#" method="post" class="form styled horizontal">
+                            <fieldset class="fields">
+                                <div class="field">
+                                    <label class="field-label required">Name:</label>
+                                    <input type="text" name="name" placeholder="Name..." aria-label="Name..." required minlength="1" maxlength="100" class="field-control" />
+                                </div>
+                                <div class="field">
+                                    <label class="field-label required">Password:</label>
+                                    <input type="password" name="password" placeholder="Password..." aria-label="Password..." required minlength="6" maxlength="100" class="field-control" />
+                                </div>
+                            </fieldset>
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </article>
+                    <article id="forms-fields-text">
+                        <h3>Text fields</h3>
+                        <p>
+                            Use classname <code>.field-control</code>.
+                        </p>
+                        <form action="#" method="post" class="form">
+                            <fieldset class="fields">
+                                <div class="field">
+                                    <input type="text" name="name" placeholder="Name..." aria-label="Name..." required minlength="1" maxlength="100" class="field-control" />
+                                </div>
+                                <div class="field">
+                                    <textarea name="text" placeholder="Enter text..." aria-label="Enter text..." required minlength="6" maxlength="100" class="field-control"></textarea>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </article>
+                    <article id="forms-fields-select">
+                        <h3>Select</h3>
+                        <p>
+                            Use classname <code>.field-control</code>.
+                        </p>
+                        <form action="#" method="post" class="form">
+                            <fieldset class="fields">
+                                <div class="field">
+                                    <select class="field-control" name="options" aria-label="Select option...">
+                                        <option disabled selected>Select option...</option>
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                        <option>Option 3</option>
+                                        <option>Option 4</option>
+                                    </select>
+                                </div>
+                                <div class="field">
+                                    <select multiple size="4" class="field-control" name="options" aria-label="Select option...">
+                                        <option selected>Option 1</option>
+                                        <option>Option 2</option>
+                                        <option selected>Option 3</option>
+                                        <option>Option 4</option>
+                                    </select>
+                                </div>
+                            </fieldset>
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </article>
+                    <article id="forms-fields-checkbox">
+                        <h3>Checkbox</h3>
+                        <p>
+                            No need for classname.
+                        </p>
+                        <form action="#" method="post" class="form">
+                            <fieldset class="fields">
+                                <div class="field">
+                                    <label class="field-label">
+                                        <input type="checkbox" name="data[]" value="1" />
+                                        Checkbox 1
+                                    </label>
+                                </div>
+                                <div class="field">
+                                    <label class="field-label">
+                                        <input type="checkbox" name="data[]" value="2" />
+                                        Checkbox 2
+                                    </label>
+                                </div>
+                                <div class="field">
+                                    <label class="field-label">
+                                        <input type="checkbox" name="data[]" value="3" />
+                                        Checkbox 3
+                                    </label>
+                                </div>
+                            </fieldset>
+                        </form>
                     </article>
                 </section>
             </div>
