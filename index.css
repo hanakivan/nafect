@@ -1,5 +1,6 @@
 @import "src/reset.css";
 @import "src/variables.css";
+@import "src/normalize.css";
 @import "src/layout/index.css";
 @import "src/buttons.css";
 @import "src/tables.css";

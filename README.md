@@ -14,7 +14,11 @@ Does not have any advantage over the popular framework. You are encouraged to us
 ### Licensing
 👉 [See license »](LICENSE.md)
 
-## Inspirations
+### Inspirations
 - [Bootstrap v3.3](https://getbootstrap.com/docs/3.3/css/#forms)
 - [Bootstrap v5.1](https://getbootstrap.com/docs/5.1)
 - Chrome DevTools Contrast Checker
+
+
+### Credits
+- [icon](https://www.iconfinder.com/Erik_Rgnr)
