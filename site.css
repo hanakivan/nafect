@@ -22,6 +22,14 @@ p {
     line-height: 1.5;
 }
 
+p a {
+    text-decoration: underline;
+}
+
+p a:hover {
+    text-decoration: none;
+}
+
 .sidebar {
     width: var(--sidebar-width);
     position: fixed;

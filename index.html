@@ -19,6 +19,11 @@
         <aside class="sidebar column">
             <ul>
                 <li>
+                    <a href="#basics">
+                        Basics
+                    </a>
+                </li>
+                <li>
                     <a href="#layout">
                         Layout
                     </a>
@@ -111,8 +116,23 @@
         </aside>
         <div class="content">
             <div class="container">
+                <section id="basics">
+                    <h2>Basics</h2>
+                    <p>
+                        The layout works with support of <strong>flexbox</strong>. With multi-column flex layout there is known bug, that if the number of items is not even in each row, the last row's items that is last will stretch across the whole container - this is not the case and is fixed.
+                    </p>
+                    <p>
+                        Changing color of buttons on hover is done via css <code>filter</code> property.
+                    </p>
+                    <p>
+                        Don't expect it to work in EDGE 12, but later ones will do. Probably does not work for <a rel="noreferrer" target="_blank" href="https://sk.wikipedia.org/wiki/Sydney_Opera_House">Opera</a> (whatever it is) either.
+                    </p>
+                    <p>
+                        Size around <code>4kb</code>, very efficient.
+                    </p>
+                </section>
                 <section id="layout">
-                    <h2>Basic layout</h2>
+                    <h2>Layout</h2>
                     <article id="layout-2-cells">
                         <h3>Two cells in a row:</h3>
                         <p>
