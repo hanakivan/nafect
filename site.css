@@ -50,6 +50,22 @@ p a:hover {
     text-decoration: underline;
 }
 
+.side-nav {
+
+}
+
+.side-nav > li > a {
+    font-weight: 600;
+}
+
+.side-nav li + li {
+    margin-top: .4em;
+}
+
+.side-nav li ul {
+    margin-top: .4em;
+}
+
 .content {
     padding: 50px;
 }
