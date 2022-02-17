@@ -5,3 +5,28 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+html {
+    font-size: 14px;
+}
+
+html * {
+    font-size: inherit;
+}
+
+small {
+    font-size: .85em;
+}
+
+ul,
+ol {
+    margin-left: 20px;
+}
+
+ul li + li {
+    margin-top: .4em;
+}
+
+li ul {
+    margin-top: 15px;
+}
